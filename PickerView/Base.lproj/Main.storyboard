@@ -23,14 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SfG-gE-5l2">
-                                <rect key="frame" x="16" y="404" width="82" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5I-Tz-8Jo">
-                                <rect key="frame" x="149" y="407" width="77" height="37"/>
+                                <rect key="frame" x="16" y="404" width="164" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
@@ -49,8 +42,7 @@
                     </view>
                     <connections>
                         <outlet property="myL" destination="SfG-gE-5l2" id="aTy-RK-UY3"/>
-                        <outlet property="myL2" destination="C5I-Tz-8Jo" id="Sm4-As-FF9"/>
-                        <outlet property="myL3" destination="5QW-Ic-zsd" id="V3l-2F-pdJ"/>
+                        <outlet property="myL2" destination="5QW-Ic-zsd" id="GQF-uU-7Ox"/>
                         <outlet property="myPV" destination="1kM-bB-eIl" id="dnl-fh-pD2"/>
                     </connections>
                 </viewController>
